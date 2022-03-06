@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Hind Madurai", sans-serif;
+}
+
+html {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+}
+
+// navbar.scss
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 10px 0;
+
+  background-color: #0433ff;
+  color: white;
+
+  // navbar__departments.scss
+  &__departments {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  // navbar__departments-option
+  &__departments-option {
+    display: block;
+    padding: 20px 10px;
+
+    color: white;
+    text-decoration: none;
+  }
+
+  &__main-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    max-width: 1000px;
+    // column-gap: 10px;
+  }
+}
+
+// navbar__main-info.scss
+
+//navbar__input.scss
+.navbar__input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+
+  border-color: transparent;
+  outline: none;
+}
+
+.navbar__search-input {
+  display: flex;
+  position: relative;
+
+  min-width: 200px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.navbar__input-icon {
+  display: block;
+  height: 24px;
+  margin: 10px 10px 0 0;
+
+  position: absolute;
+  right: 0;
+}
+
+// ./navbar/__my-profile.scss
+.navbar__my-profile {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__my-profile-label {
+  display: inline-block;
+}
