@@ -1,0 +1,16 @@
+@use "__main-info/navbar__main-info.scss";
+@use "__search-input/navbar__search-input.scss";
+@use "__input/navbar__input.scss";
+@use "__departments/navbar__departments.scss";
+@use "__departments-option/navbar__departments-option.scss";
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 10px 0;
+
+  background-color: #0433ff;
+  color: white;
+}

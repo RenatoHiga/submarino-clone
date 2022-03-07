@@ -1,9 +1,11 @@
-.navbar__main-info {
+.navbar__departments {
+  // Display
   display: flex;
   justify-content: space-around;
-  align-items: center;
 
+  // Box Model
   width: 100%;
   max-width: 1000px;
-  // column-gap: 10px;
+
+  list-style: none;
 }
