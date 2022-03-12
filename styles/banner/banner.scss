@@ -1,0 +1,10 @@
+@use "__image/banner__image.scss";
+@use "__button/banner__button.scss";
+@use "__button-image/banner__button-image.scss";
+
+.banner {
+  grid-column-start: 1;
+  grid-column-end: 13;
+
+  position: relative;
+}

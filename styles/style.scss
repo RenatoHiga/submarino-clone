@@ -1,6 +1,8 @@
 @use "base-style/base-style.scss";
 @use "navbar/navbar.scss";
 
+@use "banner/banner.scss";
+
 .main-content {
   display: flex;
   justify-content: center;
@@ -15,11 +17,13 @@
   max-width: 1000px;
 }
 
-.banner {
-  grid-column-start: 1;
-  grid-column-end: 13;
-}
+// .banner {
+//   grid-column-start: 1;
+//   grid-column-end: 13;
 
-.banner__image {
-  width: 100%;
-}
+//   position: relative;
+// }
+
+// .banner__image {
+//   width: 100%;
+// }

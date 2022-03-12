@@ -78,6 +78,37 @@ body {
   color: white;
 }
 
+.banner__image {
+  width: 100%;
+}
+
+.banner__button--left {
+  left: -32px;
+}
+
+.banner__button--right {
+  right: -32px;
+}
+
+.banner__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.banner__button-image {
+  display: block;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.banner {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  position: relative;
+}
+
 .main-content {
   display: flex;
   justify-content: center;
@@ -89,15 +120,6 @@ body {
   column-gap: 30px;
   width: 100%;
   max-width: 1000px;
-}
-
-.banner {
-  grid-column-start: 1;
-  grid-column-end: 13;
-}
-
-.banner__image {
-  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
