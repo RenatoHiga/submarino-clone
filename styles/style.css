@@ -94,6 +94,11 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.banner__button-image--left {
+  transform: rotate(0.5turn);
 }
 
 .banner__button-image {
@@ -106,7 +111,19 @@ body {
 .banner {
   grid-column-start: 1;
   grid-column-end: 13;
+  margin-top: 20px;
   position: relative;
+  cursor: pointer;
+}
+
+.promotions-by-department__card {
+  width: 300px;
+  height: 250px;
+}
+
+.promotions-by-department {
+  grid-column-start: 1;
+  grid-column-end: 13;
 }
 
 .main-content {

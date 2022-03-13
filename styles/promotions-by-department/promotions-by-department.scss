@@ -1,0 +1,6 @@
+@use "__card/promotions-by-department__card.scss";
+
+.promotions-by-department {
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
