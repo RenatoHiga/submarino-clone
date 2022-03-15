@@ -1,6 +1,11 @@
 @use "__card/promotions-by-department__card.scss";
+@use "__name/promotions-by-department__name.scss";
+@use "__name-underline/promotions-by-department__name-underline.scss";
 
 .promotions-by-department {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
   grid-column-start: 1;
   grid-column-end: 13;
 }

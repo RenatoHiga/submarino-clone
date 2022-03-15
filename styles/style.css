@@ -117,11 +117,25 @@ body {
 }
 
 .promotions-by-department__card {
-  width: 300px;
-  height: 250px;
+  min-height: 200px;
+}
+
+.promotions-by-department__name {
+  display: block;
+  max-width: 65px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.promotions-by-department__name-underline {
+  display: block;
+  height: 10px;
+  background-color: black;
 }
 
 .promotions-by-department {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   grid-column-start: 1;
   grid-column-end: 13;
 }
