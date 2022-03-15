@@ -1,0 +1,10 @@
+@use "_left/banner__button_left.scss";
+@use "_right/banner__button_right.scss";
+
+.banner__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  cursor: pointer;
+}
