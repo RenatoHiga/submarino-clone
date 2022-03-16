@@ -1,3 +1,11 @@
 .promotions-by-department__card {
-  min-height: 200px;
+  display: flex;
+
+  height: 200px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background-color: white;
 }
