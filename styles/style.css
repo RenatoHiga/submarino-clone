@@ -118,7 +118,7 @@ body {
 }
 
 .promotions-by-department__container {
-  min-height: 300px;
+  min-height: 250px;
 }
 
 .promotions-by-department__card {
@@ -132,7 +132,28 @@ body {
 .promotions-by-department__text {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   max-width: 65%;
+  padding: 10px;
+}
+
+.promotions-by-department__title {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.promotions-by-department__discount {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.promotions-by-department__check {
+  border-bottom: 1px solid black;
+}
+
+.promotions-by-department__check-rules {
+  font-size: 12px;
 }
 
 .promotions-by-department__product-image {

@@ -1,6 +1,9 @@
 .promotions-by-department__text {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 
   max-width: 65%;
+  padding: 10px;
 }
