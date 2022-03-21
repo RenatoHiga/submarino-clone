@@ -18,6 +18,10 @@ body {
   background-color: #f5f5f5;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .navbar__main-info {
   display: flex;
   justify-content: space-around;
@@ -167,6 +171,8 @@ body {
 .promotions-by-department__name {
   display: block;
   max-width: 65px;
+  min-height: 54px;
+  padding-bottom: 15px;
   font-size: 22px;
   font-weight: 600;
 }
