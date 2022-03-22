@@ -160,6 +160,10 @@ body {
   font-size: 12px;
 }
 
+.promotions-by-department__product-image--portrait {
+  width: auto;
+}
+
 .promotions-by-department__product-image {
   display: block;
   width: 100%;
