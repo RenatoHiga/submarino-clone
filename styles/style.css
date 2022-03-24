@@ -121,8 +121,16 @@ body {
   cursor: pointer;
 }
 
+.promotions-by-department__container--small {
+  min-height: 180px !important;
+}
+
 .promotions-by-department__container {
   min-height: 250px;
+}
+
+.promotions-by-department__card-small {
+  flex-direction: row;
 }
 
 .promotions-by-department__card {
@@ -172,6 +180,12 @@ body {
   left: 65%;
 }
 
+.promotions-by-department__small-image-container {
+  display: block;
+  width: 90px;
+  height: 90px;
+}
+
 .promotions-by-department__name {
   display: block;
   max-width: 65px;
@@ -190,6 +204,7 @@ body {
 .promotions-by-department {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
   grid-column-start: 1;
   grid-column-end: 13;
 }

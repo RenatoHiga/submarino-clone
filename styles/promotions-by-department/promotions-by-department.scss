@@ -7,6 +7,7 @@
 @use "__check/promotions-by-department__check.scss";
 @use "__check-rules/promotions-by-department__check-rules.scss";
 @use "__product-image/promotions-by-department__product-image.scss";
+@use "__small-image-container/promotions-by-department__small-image-container";
 
 @use "__name/promotions-by-department__name.scss";
 @use "__name-underline/promotions-by-department__name-underline.scss";
@@ -14,6 +15,7 @@
 .promotions-by-department {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 
   grid-column-start: 1;
   grid-column-end: 13;
