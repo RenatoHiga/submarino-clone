@@ -1,0 +1,11 @@
+@use "_small/promotions-by-department__text_small.scss";
+
+.promotions-by-department__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  max-width: 65%;
+  padding: 10px;
+}

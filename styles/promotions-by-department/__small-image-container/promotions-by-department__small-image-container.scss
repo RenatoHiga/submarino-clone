@@ -1,0 +1,17 @@
+@use "_blue/promotions-by-department__small-image-container_blue.scss";
+@use "_light-blue/promotions-by-department__small-image-container_light-blue.scss";
+
+.promotions-by-department__small-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 90px;
+  height: 90px;
+
+  margin-left: 10px;
+
+  border-radius: 50px;
+
+  background-color: #003390;
+}

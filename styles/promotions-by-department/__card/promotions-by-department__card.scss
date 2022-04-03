@@ -1,4 +1,13 @@
+@use "_small/promotions-by-department__card_small.scss";
+
 .promotions-by-department__card {
-  width: 300px;
-  height: 250px;
+  display: flex;
+
+  height: 200px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background-color: white;
 }

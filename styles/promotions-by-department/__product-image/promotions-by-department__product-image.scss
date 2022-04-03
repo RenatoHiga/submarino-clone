@@ -1,0 +1,11 @@
+@use "_portrait/promotions-by-deparment__product-image_portrait.scss";
+
+.promotions-by-department__product-image {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  left: 65%;
+}
