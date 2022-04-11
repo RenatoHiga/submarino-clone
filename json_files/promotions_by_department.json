@@ -1,0 +1,43 @@
+{
+  "promotions_by_department": [
+    {
+      "department_name": "Tech",
+      "card_type": "main-card",
+      "first_card_title": "Smart TV's com até",
+      "discount_title": "10% OFF",
+      "second_card_title": "+ em até 10x sem juros",
+      "check_label": "Confira!",
+      "image": "images/promotions-by-department-products/samsung_tv.jpg"
+    },
+    {
+      "department_name": null,
+      "card_type": "main-card",
+      "first_card_title": "PCs com",
+      "discount_title": "12% OFF",
+      "second_card_title": "no cupom PCS12",
+      "check_label": "Aproveite!",
+      "image": "images/promotions-by-department-products/macbook.jpg",
+      "image_orientation": "landscape"
+    },
+    {
+      "department_name": "Casa",
+      "card_type": "main-card",
+      "first_card_title": "Eletrodomésticos com até",
+      "discount_title": "10% OFF",
+      "second_card_title": "à vista",
+      "check_label": "Leve já!",
+      "image": "images/promotions-by-department-products/geladeira_paisagem.jpg",
+      "image_orientation": "portrait"
+    },
+    {
+      "department_name": "Livros",
+      "card_type": "main-card",
+      "first_card_title": "Livros com até",
+      "discount_title": "70% OFF",
+      "second_card_title": null,
+      "check_label": "Vem ler!",
+      "image": "images/promotions-by-department-products/mindset-livro.jpg",
+      "image_orientation": "portrait"
+    }
+  ]
+}

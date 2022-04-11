@@ -1,0 +1,29 @@
+{
+  "name": "submarino-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index-test.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenatoHiga/submarino-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenatoHiga/submarino-clone/issues"
+  },
+  "homepage": "https://github.com/RenatoHiga/submarino-clone#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "terser": "^5.12.1"
+  }
+}
