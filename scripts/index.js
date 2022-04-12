@@ -146,17 +146,26 @@ class PromotionsByDepartment extends React.Component {
       let imageOrientationClasses;
 
       if (isImagePortrait) {
-        imageOrientationClasses = "promotions-by-department__product-image";
-      } else {
         imageOrientationClasses =
-          "promotions-by-department__product-image promotions-by-department__product-image--portrait";
+          "promotions-by-department__product-image--portrait";
+      } else {
+        imageOrientationClasses = "promotions-by-department__product-image";
+      }
+
+      let showTitle = promotion.department_name !== null;
+      let departmentNameClass = "";
+
+      if (showTitle) {
+        departmentNameClass = "promotions-by-department__name-underline";
+      } else {
+        departmentNameClass = "promotions-by-department__name-underline hidden";
       }
 
       let card = (
         <div className="promotions-by-department__container">
           <span className="promotions-by-department__name">
             {promotion.department_name}
-            <span className="promotions-by-department__name-underline"></span>
+            <span className={departmentNameClass}></span>
           </span>
 
           <div className="promotions-by-department__card">
@@ -195,51 +204,6 @@ class PromotionsByDepartment extends React.Component {
 
     return mainPromotionsRow;
   }
-
-  // renderPromotionsContainers() {
-  //   const times_repeat_loop = 4;
-
-  //   const promotionsContainers = [];
-
-  //   for (let index = 0; index < times_repeat_loop; index++) {
-  //     promotionsContainers.push(
-  //       <div className="promotions-by-department__container">
-  //         <span className="promotions-by-department__name">
-  //           Tech
-  //           <span className="promotions-by-department__name-underline"></span>
-  //         </span>
-
-  //         <div className="promotions-by-department__card">
-  //           <div className="promotions-by-department__text">
-  //             <span className="promotions-by-department__title">
-  //               Smart TV's com até
-  //             </span>
-
-  //             <span className="promotions-by-department__discount">
-  //               10% OFF
-  //             </span>
-
-  //             <span className="promotions-by-department__title">
-  //               + em até 10x sem juros
-  //             </span>
-
-  //             <span className="promotions-by-department__check">Confira!</span>
-  //             <span className="promotions-by-department__check-rules">
-  //               *Confira as regras
-  //             </span>
-  //           </div>
-
-  //           <img
-  //             className="promotions-by-department__product-image"
-  //             src="images/promotions-by-department-products/samsung_tv.jpg"
-  //           />
-  //         </div>
-  //       </div>
-  //     );
-  //   }
-
-  //   return promotionsContainers;
-  // }
 
   render() {
     return (
