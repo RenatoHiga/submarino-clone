@@ -135,10 +135,6 @@ class PromotionsByDepartment extends React.Component {
   createMainPromotionsRow(promotions) {
     let mainPromotionsRow = [];
 
-    // promotions = [promotions[2]];
-
-    console.log(promotions, "this is promotions");
-
     mainPromotionsRow = promotions.map((promotion) => {
       console.log(promotion);
 
@@ -330,6 +326,82 @@ function fetchPromotionsByDepartment() {
               <Banner />
 
               <PromotionsByDepartment data={data} />
+
+              <div>
+                <div>10% á vista</div>
+
+                <div className="product-card">
+                  <img
+                    src="images/product-images/samsung-galaxy-s20-fe.jpg"
+                    width="150px"
+                    height="150px"
+                  />
+                  <div>
+                    Smartphone Samsung Galaxy S20Fe 128GB 4G Wi-Fi Tela 6.5"
+                    Dual Chip GB RAM...
+                  </div>
+                  <div>Stars</div>
+                  <div>Price</div>
+                  <div>10% OFF à vista</div>
+                </div>
+              </div>
+
+              <div>
+                <div>10% á vista</div>
+
+                <div className="product-card">
+                  <img
+                    src="images/product-images/samsung-galaxy-s20-fe.jpg"
+                    width="150px"
+                    height="150px"
+                  />
+                  <div>
+                    Smartphone Samsung Galaxy S20Fe 128GB 4G Wi-Fi Tela 6.5"
+                    Dual Chip GB RAM...
+                  </div>
+                  <div>Stars</div>
+                  <div>Price</div>
+                  <div>10% OFF à vista</div>
+                </div>
+              </div>
+
+              <div>
+                <div>10% á vista</div>
+
+                <div className="product-card">
+                  <img
+                    src="images/product-images/samsung-galaxy-s20-fe.jpg"
+                    width="150px"
+                    height="150px"
+                  />
+                  <div>
+                    Smartphone Samsung Galaxy S20Fe 128GB 4G Wi-Fi Tela 6.5"
+                    Dual Chip GB RAM...
+                  </div>
+                  <div>Stars</div>
+                  <div>Price</div>
+                  <div>10% OFF à vista</div>
+                </div>
+              </div>
+
+              <div>
+                <div>10% á vista</div>
+
+                <div className="product-card">
+                  <img
+                    src="images/product-images/samsung-galaxy-s20-fe.jpg"
+                    width="150px"
+                    height="150px"
+                  />
+                  <div>
+                    Smartphone Samsung Galaxy S20Fe 128GB 4G Wi-Fi Tela 6.5"
+                    Dual Chip GB RAM...
+                  </div>
+                  <div>Stars</div>
+                  <div>Price</div>
+                  <div>10% OFF à vista</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

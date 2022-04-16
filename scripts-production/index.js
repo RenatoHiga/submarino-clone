@@ -204,10 +204,6 @@ var PromotionsByDepartment = function (_React$Component3) {
     value: function createMainPromotionsRow(promotions) {
       var mainPromotionsRow = [];
 
-      // promotions = [promotions[2]];
-
-      console.log(promotions, "this is promotions");
-
       mainPromotionsRow = promotions.map(function (promotion) {
         console.log(promotion);
 
@@ -477,7 +473,159 @@ function fetchPromotionsByDepartment() {
           "div",
           { className: "main-content__container" },
           React.createElement(Banner, null),
-          React.createElement(PromotionsByDepartment, { data: data })
+          React.createElement(PromotionsByDepartment, { data: data }),
+          React.createElement(
+            "div",
+            null,
+            React.createElement(
+              "div",
+              null,
+              "10% \xE1 vista"
+            ),
+            React.createElement(
+              "div",
+              { className: "product-card" },
+              React.createElement("img", {
+                src: "images/product-images/samsung-galaxy-s20-fe.jpg",
+                width: "150px",
+                height: "150px"
+              }),
+              React.createElement(
+                "div",
+                null,
+                "Smartphone Samsung Galaxy S20Fe 128GB 4G Wi-Fi Tela 6.5\" Dual Chip GB RAM..."
+              ),
+              React.createElement(
+                "div",
+                null,
+                "Stars"
+              ),
+              React.createElement(
+                "div",
+                null,
+                "Price"
+              ),
+              React.createElement(
+                "div",
+                null,
+                "10% OFF \xE0 vista"
+              )
+            )
+          ),
+          React.createElement(
+            "div",
+            null,
+            React.createElement(
+              "div",
+              null,
+              "10% \xE1 vista"
+            ),
+            React.createElement(
+              "div",
+              { className: "product-card" },
+              React.createElement("img", {
+                src: "images/product-images/samsung-galaxy-s20-fe.jpg",
+                width: "150px",
+                height: "150px"
+              }),
+              React.createElement(
+                "div",
+                null,
+                "Smartphone Samsung Galaxy S20Fe 128GB 4G Wi-Fi Tela 6.5\" Dual Chip GB RAM..."
+              ),
+              React.createElement(
+                "div",
+                null,
+                "Stars"
+              ),
+              React.createElement(
+                "div",
+                null,
+                "Price"
+              ),
+              React.createElement(
+                "div",
+                null,
+                "10% OFF \xE0 vista"
+              )
+            )
+          ),
+          React.createElement(
+            "div",
+            null,
+            React.createElement(
+              "div",
+              null,
+              "10% \xE1 vista"
+            ),
+            React.createElement(
+              "div",
+              { className: "product-card" },
+              React.createElement("img", {
+                src: "images/product-images/samsung-galaxy-s20-fe.jpg",
+                width: "150px",
+                height: "150px"
+              }),
+              React.createElement(
+                "div",
+                null,
+                "Smartphone Samsung Galaxy S20Fe 128GB 4G Wi-Fi Tela 6.5\" Dual Chip GB RAM..."
+              ),
+              React.createElement(
+                "div",
+                null,
+                "Stars"
+              ),
+              React.createElement(
+                "div",
+                null,
+                "Price"
+              ),
+              React.createElement(
+                "div",
+                null,
+                "10% OFF \xE0 vista"
+              )
+            )
+          ),
+          React.createElement(
+            "div",
+            null,
+            React.createElement(
+              "div",
+              null,
+              "10% \xE1 vista"
+            ),
+            React.createElement(
+              "div",
+              { className: "product-card" },
+              React.createElement("img", {
+                src: "images/product-images/samsung-galaxy-s20-fe.jpg",
+                width: "150px",
+                height: "150px"
+              }),
+              React.createElement(
+                "div",
+                null,
+                "Smartphone Samsung Galaxy S20Fe 128GB 4G Wi-Fi Tela 6.5\" Dual Chip GB RAM..."
+              ),
+              React.createElement(
+                "div",
+                null,
+                "Stars"
+              ),
+              React.createElement(
+                "div",
+                null,
+                "Price"
+              ),
+              React.createElement(
+                "div",
+                null,
+                "10% OFF \xE0 vista"
+              )
+            )
+          )
         )
       )
     ));

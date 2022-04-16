@@ -4,6 +4,8 @@
 @use "banner/banner.scss";
 @use "promotions-by-department/promotions-by-department.scss";
 
+@use "product-card/product-card.scss";
+
 .main-content {
   display: flex;
   justify-content: center;
